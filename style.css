@@ -1,0 +1,18 @@
+button{
+    border-radius: 20px;
+    font-size: 30px;
+    width: 20%;
+    color: white;
+    background: rgb(196, 59, 123);
+}
+a[href="Sign up"]{
+    color: red;
+    
+}
+u{
+    text-decoration-color: red;
+}
+input{
+    border-radius: 10px;
+    
+}

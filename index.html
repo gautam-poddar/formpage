@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+    <h1> <u>LOGIN</u></h1>
+
+    <form id="myForm" action="#" method="get">
+        
+            <label for="username">Username</label>
+            <br>
+            <input  type="text" name="username" id="username" required> 
+            <br>
+            
+            <label for="password">Password</label>
+            <br>
+            <input type="password" name="password" id="password" required>
+            
+            <br><br>
+            
+        <input type="checkbox">Remember me
+        <br> <br>
+        <button onclick="myscript()" type="Sign in" >Sign in</button> 
+        <h3>Don't have an account?  <a href="Sign up">Sign up</a> </h3>
+    </form>
+    </body>
+    <script>
+       //const myForm = document.getElementById("myForm");
+       
+        function myscript() {
+          alert("You have successfully signed in");
+        }
+
+       
+    </script>
+</html>
